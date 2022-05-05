@@ -126,7 +126,7 @@ namespace CDR.Register.IntegrationTests.Gateway
             const string JWT_CLAIM_AUD = "cdr-register";
             const string JWT_CLAIM_CLIENT_ID = CLIENT_ID;
             const string JWT_CLAIM_SCOPE = SCOPE;
-            const string JWT_CLAIM_CNF = @"{""x5t#S256"":""58D76F7A61CD726DA1C54F6898E8E69EA4C88060""}";
+            const string JWT_CLAIM_CNF = @"{""x5t#S256"":""99f2488bd4b7554304a7f1e0db7241a8f239aaef""}";
 
             // Expected AccessToken
             const int ACCESSTOKEN_EXPIRESIN = 300;
