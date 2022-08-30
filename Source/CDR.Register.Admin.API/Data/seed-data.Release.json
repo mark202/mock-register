@@ -136,7 +136,7 @@
                                     "PolicyUri": "https://mocksoftware/mybudgetapp/policy",
                                     "RecipientBaseUri": "https://mock-data-recipient.markhogben.com",
                                     "RevocationUri": "https://mock-data-recipient.markhogben.com/revocation",
-                                    "RedirectUris": "https://webhook.site/6364d482-716a-40d5-8534-32284b834f44",
+                                    "RedirectUris": "https://webhook.site/6be08db6-c800-4678-be80-64f782408d64",
                                     "JwksUri": "https://mock-data-recipient.markhogben.com/jwks",
                                     "Scope": "openid profile common:customer.basic:read common:customer.detail:read bank:accounts.basic:read bank:accounts.detail:read bank:transactions:read bank:regular_payments:read bank:payees:read energy:accounts.basic:read energy:accounts.detail:read energy:accounts.concessions:read energy:accounts.paymentschedule:read energy:billing:read energy:electricity.servicepoints.basic:read energy:electricity.servicepoints.detail:read energy:electricity.der:read energy:electricity.usage:read cdr:registration",
                                     "StatusId": 1,
@@ -145,6 +145,60 @@
                                         {
                                             "SoftwareProductCertificateId": "dd8a5059-a7ef-43d7-61f8-08da7445f9e0",
                                             "SoftwareProductId": "bb327f87-687a-4369-99a4-eaacd3bb8210",
+                                            "CommonName": "MockDataRecipient",
+                                            "Thumbprint": "715cdd04ff7332ccda74cdf9fbed16beba5dd744"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "AuthDetails": []
+                        }
+                    ]
+                }
+            ]
+        },
+		{
+            "LegalEntityId": "67892430-819a-4718-91f6-8ef918d98ef2",
+            "LegalEntityName": "Fin Legal Entity - 001",
+            "LogoUri": "https://mocksoftware/img/logo.png",
+            "Abn": "11222333444",
+            "Acn": "222333444",
+            "LegalEntityStatusId": 1,
+            "AccreditationNumber": "ADRBNK000099",
+            "Participations": [
+                {
+                    "ParticipationId": "5762da89-0624-47fe-9491-6ed769a8f15c",
+                    "LegalEntityId": "67892430-819a-4718-91f6-8ef918d98ef2",
+                    "ParticipationTypeId": 2,
+                    "StatusId": 1,
+                    "Brands": [
+                        {
+                            "BrandId": "0fcc625f-8df6-4642-9462-1f8c144f64ef",
+                            "BrandName": "Fin Brand - 001",
+                            "LogoUri": "https://mocksoftware/img/logo.png",
+                            "BrandStatusId": 1,
+                            "ParticipationId": "5762da89-0624-47fe-9491-6ed769a8f15c",
+                            "LastUpdated": "2021-04-06T11:58:00",
+                            "SoftwareProducts": [
+                                {
+                                    "SoftwareProductId": "cdb7bffd-26f4-48a6-bd39-52d0acf0d47f",
+                                    "SoftwareProductName": "Fin - MyBudgetHelper - 001",
+                                    "SoftwareProductDescription": "A product to help you manage your budget",
+                                    "LogoUri": "https://mocksoftware/mybudgetapp/img/logo.png",
+                                    "ClientUri": "https://mocksoftware/mybudgetapp",
+                                    "TosUri": "https://mocksoftware/mybudgetapp/terms",
+                                    "PolicyUri": "https://mocksoftware/mybudgetapp/policy",
+                                    "RecipientBaseUri": "https://mock-data-recipient.markhogben.com",
+                                    "RevocationUri": "https://mock-data-recipient.markhogben.com/revocation",
+                                    "RedirectUris": "https://fin02.dev.openbanking.mastercard.com.au/oauth/v1/callback",
+                                    "JwksUri": "https://mock-data-recipient.markhogben.com/jwks",
+                                    "Scope": "openid profile common:customer.basic:read common:customer.detail:read bank:accounts.basic:read bank:accounts.detail:read bank:transactions:read bank:regular_payments:read bank:payees:read energy:accounts.basic:read energy:accounts.detail:read energy:accounts.concessions:read energy:accounts.paymentschedule:read energy:billing:read energy:electricity.servicepoints.basic:read energy:electricity.servicepoints.detail:read energy:electricity.der:read energy:electricity.usage:read cdr:registration",
+                                    "StatusId": 1,
+                                    "BrandId": "0fcc625f-8df6-4642-9462-1f8c144f64ef",
+                                    "Certificates": [
+                                        {
+                                            "SoftwareProductCertificateId": "b9edab5e-e6ea-4389-b4c9-2803b9486c3b",
+                                            "SoftwareProductId": "cdb7bffd-26f4-48a6-bd39-52d0acf0d47f",
                                             "CommonName": "MockDataRecipient",
                                             "Thumbprint": "715cdd04ff7332ccda74cdf9fbed16beba5dd744"
                                         }

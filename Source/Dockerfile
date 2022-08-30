@@ -67,7 +67,7 @@ RUN apt-get update && apt-get install -y supervisor
 
 RUN apt-get update && apt-get install -y sudo
 
-RUN apt-get update && apt-get install -y sudo
+RUN apt-get install -y curl less
 
 RUN sudo cp ./gateway-mtls/Certificates/ca.crt /usr/local/share/ca-certificates/ca.crt
 
