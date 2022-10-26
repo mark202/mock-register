@@ -41,8 +41,10 @@ namespace CDR.Register.API.Gateway.TLS
                 PreErrorResponderMiddleware = async (httpContext, next) =>
                 {
                     // Send through the original host name to the backend service.
-                    httpContext.Request.Headers.Add("X-Forwarded-Host", httpContext.Request.Host.ToString());
-
+                    if (string.IsNullOrEmpty(httpContext.Request.Headers["X-Forwarded-Host"]))
+                        {
+                            httpContext.Request.Headers.Add("X-Forwarded-Host", httpContext.Request.Host.ToString());
+                        }
                     await next.Invoke();
                 }
             };

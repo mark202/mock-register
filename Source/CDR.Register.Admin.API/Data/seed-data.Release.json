@@ -104,10 +104,10 @@
                   "ClientUri": "https://mocksoftware/myenergyapp",
                   "TosUri": "https://mocksoftware/myenergyapp/terms",
                   "PolicyUri": "https://mocksoftware/myenergyapp/policy",
-                  "RecipientBaseUri": "https://mock-data-recipient:9001",
-                  "RevocationUri": "https://mock-data-recipient:9001/revocation",
-                  "RedirectUris": "https://mock-data-recipient:9001/consent/callback",
-                  "JwksUri": "https://mock-data-recipient:9001/jwks",
+                  "RecipientBaseUri": "https://mock-data-recipient.mymock.xyz",
+                  "RevocationUri": "https://mock-data-recipient.mymock.xyz/revocation",
+                  "RedirectUris": "https://mock-data-recipient.mymock.xyz/consent/callback",
+                  "JwksUri": "https://mock-data-recipient.mymock.xyz/jwks",
                   "Scope": "openid profile common:customer.basic:read common:customer.detail:read bank:accounts.basic:read bank:accounts.detail:read bank:transactions:read bank:regular_payments:read bank:payees:read energy:accounts.basic:read energy:accounts.detail:read energy:accounts.concessions:read energy:accounts.paymentschedule:read energy:billing:read energy:electricity.servicepoints.basic:read energy:electricity.servicepoints.detail:read energy:electricity.der:read energy:electricity.usage:read cdr:registration",
                   "StatusId": 1,
                   "Certificates": [
@@ -158,9 +158,9 @@
               ],
               "Endpoint": {
                 "Version": 1,
-                "PublicBaseUri": "https://mock-data-holder:8000",
-                "ResourceBaseUri": "https://mock-data-holder:8002",
-                "InfoSecBaseUri": "https://mock-data-holder:8001",
+                "PublicBaseUri": "https://mock-data-holder.mymock.xyz",
+                "ResourceBaseUri": "https://mock-data-holder.secure.mymock.xyz",
+                "InfoSecBaseUri": "https://mock-data-holder.mymock.xyz",
                 "ExtensionBaseUri": "",
                 "WebsiteUri": "https://bank1/"
               }
@@ -206,10 +206,10 @@
                   "ClientUri": "https://mocksoftware/mybudgetapp",
                   "TosUri": "https://mocksoftware/mybudgetapp/terms",
                   "PolicyUri": "https://mocksoftware/mybudgetapp/policy",
-                  "RecipientBaseUri": "https://mock-data-recipient:9001",
-                  "RevocationUri": "https://mock-data-recipient:9001/revocation",
-                  "RedirectUris": "https://mock-data-recipient:9001/consent/callback",
-                  "JwksUri": "https://mock-data-recipient:9001/jwks",
+                  "RecipientBaseUri": "https://mock-data-recipient.mymock.xyz",
+                  "RevocationUri": "https://mock-data-recipient.mymock.xyz/revocation",
+                  "RedirectUris": "https://mock-data-recipient.mymock.xyz/consent/callback",
+                  "JwksUri": "https://mock-data-recipient.mymock.xyz/jwks",
                   "Scope": "openid profile common:customer.basic:read common:customer.detail:read bank:accounts.basic:read bank:accounts.detail:read bank:transactions:read bank:regular_payments:read bank:payees:read energy:accounts.basic:read energy:accounts.detail:read energy:accounts.concessions:read energy:accounts.paymentschedule:read energy:billing:read energy:electricity.servicepoints.basic:read energy:electricity.servicepoints.detail:read energy:electricity.der:read energy:electricity.usage:read cdr:registration",
                   "StatusId": 1,
                   "Certificates": [
